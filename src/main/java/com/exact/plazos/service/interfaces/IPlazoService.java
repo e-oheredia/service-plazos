@@ -6,4 +6,5 @@ public interface IPlazoService {
 	
 	public Iterable<Plazo> listarAll();
 
+	public Plazo listarById(Long id);
 }

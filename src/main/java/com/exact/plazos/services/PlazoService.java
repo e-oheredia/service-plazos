@@ -19,6 +19,10 @@ public class PlazoService implements IPlazoService{
 		return plazodao.findAll();
 	}
 	
-	
+
+	@Override
+	public Plazo listarById(Long id) {
+		return plazodao.findById(id).orElse(null);
+	}
 
 }
