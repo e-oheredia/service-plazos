@@ -39,6 +39,9 @@ public class Plazo implements Serializable{
 	@JoinColumn(name="tipo_plazo_id")
 	private TipoPlazo tipoPlazo;
 
+	@Column(nullable=false)
+	private boolean activo;
+	
 	public Long getId() {
 		return id;
 	}
@@ -70,8 +73,14 @@ public class Plazo implements Serializable{
 	public void setTipoPlazo(TipoPlazo tipoPlazo) {
 		this.tipoPlazo = tipoPlazo;
 	}
-	
-	
-	
+
+	public boolean isActivo() {
+		return activo;
+	}
+
+	public void setActivo(boolean activo) {
+		this.activo = activo;
+	}
+
 
 }
