@@ -7,5 +7,5 @@ import com.exact.plazos.entity.Plazo;
 
 @Repository
 public interface IPlazoDao extends CrudRepository<Plazo, Long> {
-
+	
 }
