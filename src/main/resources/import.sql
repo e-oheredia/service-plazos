@@ -11,4 +11,4 @@ INSERT [dbo].[plazo] ([plazo_id], [nombre], [tiempo_envio], [tipo_plazo_id]) VAL
 INSERT [dbo].[plazo] ([plazo_id], [nombre], [tiempo_envio], [tipo_plazo_id]) VALUES (2, N'72 HORAS', 72, 2)
 INSERT [dbo].[plazo] ([plazo_id], [nombre], [tiempo_envio], [tipo_plazo_id]) VALUES (3, N'48 HORAS', 48, 2)
 INSERT [dbo].[plazo] ([plazo_id], [nombre], [tiempo_envio], [tipo_plazo_id]) VALUES (4, N'24 HORAS', 24, 2)
-SET IDENTITY_INSERT [dbo].[plazo_distribucion] OFF
+SET IDENTITY_INSERT [dbo].[plazo] OFF
